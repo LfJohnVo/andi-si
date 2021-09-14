@@ -1,0 +1,32 @@
+html.theme-dark .ico_caras{
+        filter: invert(100%);
+}
+
+ html.theme-dark #table_top_filter input{
+        background-color: rgba(0, 0, 0, 0) !important;
+        color: #fff !important;
+}
+html.theme-dark #table_top_wrapper{
+        color: #fff !important;
+}
+html.theme-dark #table_top{
+        background-color: rgba(0, 0, 0, 0) !important;
+}
+html.theme-dark #table_top td, html.theme-dark #table_top tbody, html.theme-dark #table_top tr{
+        background-color: rgba(0, 0, 0, 0) !important;
+}
+html.theme-dark #table_top_length{
+        color: #fff;
+}
+html.theme-dark #table_top_filter label{
+        color: #fff;
+}
+html.theme-dark #table_top_length select{
+        background-color: rgba(0, 0, 0, 0);
+}
+html.theme-dark #table_top_info{
+        color: #fff;
+}
+html.theme-dark .logo_andi{
+        filter: grayscale(100%) invert(100%);
+}
