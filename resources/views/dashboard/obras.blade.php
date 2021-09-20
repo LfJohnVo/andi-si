@@ -1,5 +1,5 @@
 <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
-    Obras
+    Distribución
 </h2>
 <div class="grid gap-8 mb-10 md:grid-cols-3 xl:grid-cols-3">
     <!-- Card -->
@@ -13,7 +13,7 @@
         </div>
         <div>
             <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-                Total obras
+                Total distribución
             </p>
             <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
                 120

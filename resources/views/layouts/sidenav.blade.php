@@ -1,6 +1,4 @@
 <!-- Desktop sidebar -->
-
-
 <style type="text/css">
     span.absolute.inset-y-0.left-0.w-1.bg-purple-600.rounded-tr-lg.rounded-br-lg{
         display: none;
@@ -12,7 +10,7 @@
     .pestaña_activa a{
         color: #7e3af2;
     }
-    
+
     aside li:before{
         content: "";
         position: absolute;
@@ -29,17 +27,17 @@
 
     aside i{
         font-size: 16pt;
-    } 
+    }
 
     .logo_andi:hover{
         transform: scale(1.1);
     }
 
 </style>
-<aside class="z-20 flex-shrink-0 shadow-md hidden w-64 overflow-y-auto bg-white shadow-sm dark:bg-gray-800 md:block" style="box-shadow: 0 90px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);">
+<aside class="z-20 flex-shrink-0 hidden w-64 overflow-y-auto bg-white shadow-sm shadow-md dark:bg-gray-800 md:block" style="box-shadow: 0 90px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);">
     <div class="py-4 text-gray-500 dark:text-gray-400">
         <a class="w-full" style="display: flex; justify-content: center; filter: brightness(1.3);" href="{{ route('dashboard') }}">
-            <img src="{{ asset('img/logo_andi.png') }}" class="w-2/4 logo_andi duration-300">
+            <img src="{{ asset('img/logo_andi.png') }}" class="w-2/4 duration-300 logo_andi">
         </a>
         <ul class="mt-6">
             <li class="relative px-6 py-3 hover:text-purple-600 {{ request()->is('dashboard') || request()->is('dashboard/*') ? 'pestaña_activa' : '' }}">
@@ -57,7 +55,7 @@
                 <a class="inline-flex items-center w-full text-sm font-semibold"
                     href="{{ route('productoras') }}">
                     <i class="fas fa-video"></i>
-                    <span class="ml-4">Productoras</span>
+                    <span class="ml-4">Televisoras</span>
                 </a>
             </li>
             <li class="relative px-6 py-3 hover:text-purple-600 {{ request()->is('obras') || request()->is('obras/*') ? 'pestaña_activa' : '' }}">
@@ -65,14 +63,14 @@
                     href="{{ route('obras') }}">
                     <i class="fas fa-theater-masks"></i>
 
-                    <span class="ml-4">Obras</span>
+                    <span class="ml-4">Distribución</span>
                 </a>
             </li>
             <li class="relative px-6 py-3 hover:text-purple-600 {{ request()->is('socios') || request()->is('socios/*') ? 'pestaña_activa' : '' }}">
                 <a class="inline-flex items-center w-full text-sm font-semibold"
                     href="{{ route('socios') }}">
                     <i class="fas fa-address-card"></i>
-                    <span class="ml-4">Socios interpretes</span></span>
+                    <span class="ml-4">Socios andi</span></span>
                 </a>
             </li>
             <li class="relative px-6 py-3 hover:text-purple-600 {{ request()->is('my-info') || request()->is('my-info/*') ? 'pestaña_activa' : '' }}">
@@ -116,13 +114,11 @@
                     aria-hidden="true"></span>
                 <a class="inline-flex items-center w-full text-sm font-semibold"
                     href="index.html">
-                    <svg class="w-5 h-5" aria-hidden="true" fill="none" stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                        <path
-                            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
-                        </path>
-                    </svg>
+                    <a class="inline-flex items-center w-full text-sm font-semibold"
+                    href="{{ route('dashboard') }}">
+                    <i class="fas fa-chart-pie"></i>
                     <span class="ml-4">Dashboard</span>
+                </a>
                 </a>
             </li>
         </ul>

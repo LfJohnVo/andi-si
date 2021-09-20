@@ -28,7 +28,7 @@
                                     <!-- Avatar with inset shadow -->
                                     <div class="relative hidden w-8 h-8 mr-3 rounded-full md:block">
                                         <img class="object-cover w-full h-full rounded-full"
-                                            src="https://www.tvynovelas.com/us/wp-content/uploads/2018/09/Novela-Teresa-%C2%A1ser%C3%A1-doblada-en-ingl%C3%A9s.jpg"
+                                            src="https://i.pinimg.com/originals/3a/e8/35/3ae8358efa84663667eb8d9b3d896d51.jpg"
                                             alt="" loading="lazy" />
                                         <div class="absolute inset-0 rounded-full shadow-inner" aria-hidden="true"></div>
                                     </div>

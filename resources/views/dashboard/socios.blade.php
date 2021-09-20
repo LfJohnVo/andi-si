@@ -1,5 +1,5 @@
 <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
-    Socios Interpretes
+    Caja
 </h2>
 <div class="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
     <!-- Card -->
@@ -14,7 +14,7 @@
         </div>
         <div>
             <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-                Total socios interpretes
+                Total socios activos
             </p>
             <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
                 80
@@ -32,7 +32,7 @@
         </div>
         <div>
             <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-                Socios activos
+                Socios administrados
             </p>
             <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
                 65
@@ -50,7 +50,7 @@
         </div>
         <div>
             <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-                Socios suspendidos
+                Socios cantantes
             </p>
             <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
                 5
@@ -67,7 +67,7 @@
         </div>
         <div>
             <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-                Socios dados de baja
+                Socios representados
             </p>
             <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
                 10
