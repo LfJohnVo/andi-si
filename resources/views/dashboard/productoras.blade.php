@@ -1,5 +1,5 @@
 <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
-    Productoras
+    Televisoras
 </h2>
 <div class="grid gap-12 mb-8 md:grid-cols-2 xl:grid-cols-2">
     <!-- Card -->
@@ -14,7 +14,7 @@
         </div>
         <div>
             <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-                Total productoras
+                Total televisoras
             </p>
             <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
                 63

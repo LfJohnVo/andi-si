@@ -55,7 +55,7 @@
                     </div>
                     <div class="my-2 text-center">
                         <img class="w-12 h-12 mx-auto rounded-full"
-                            src="https://www.tvynovelas.com/us/wp-content/uploads/2018/09/Novela-Teresa-%C2%A1ser%C3%A1-doblada-en-ingl%C3%A9s.jpg"
+                            src="https://i.pinimg.com/originals/3a/e8/35/3ae8358efa84663667eb8d9b3d896d51.jpg"
                             alt="">
                         <!--<a href="#" class="text-main-color">James</a>-->
                     </div>

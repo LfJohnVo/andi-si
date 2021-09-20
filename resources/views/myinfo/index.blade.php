@@ -57,8 +57,8 @@
                 style="background-image: url('https://wallpapercave.com/wp/wp6739949.jpg'); background-position: center; background-size: cover;">
             </div>
             <div class="px-4 pb-6 border-b ">
-                <div class="mb-4 text-center sm:text-left sm:flex shadow-lg">
-                    <img class="h-70 mr-4 -mt-16 border-4 border-white img_perfil"
+                <div class="mb-4 text-center shadow-lg sm:text-left sm:flex">
+                    <img class="mr-4 -mt-16 border-4 border-white h-70 img_perfil"
                         src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ"
                         alt="">
                     <div class="py-2">
@@ -79,7 +79,7 @@
                         Seguir
                     </button>
                     <button
-                        class="flex-1 px-4 py-2 font-semibold text-black border-2 rounded-full border-grey dark:text-white">Mensaje</button>
+                        class="flex-1 px-4 py-2 font-semibold text-black border-2 rounded-full border-grey dark:text-white">Solicitar pago</button>
                 </div>
             </div>
             @include('myinfo.tabs')
