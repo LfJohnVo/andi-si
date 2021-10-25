@@ -13,7 +13,6 @@ Una vez descargado se deben correr los siguientes comandos en este orden:
  2. npm install
  3. npm run dev
  4. php artisan migrate --seed
- 5. cargar triggers de la carpeta trigger
 
 ## ¡Alerta!
 
